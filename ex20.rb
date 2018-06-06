@@ -13,12 +13,15 @@ def print_a_line(line_count, f)
 end
 
 current_file = open(input_file)
+
 puts "First let's print the whole file:\n"
 
 print_all(current_file)
+
 puts "Now let's rewind, kind of like a tape."
 
 rewind(current_file)
+
 puts "Let's print three lines:"
 
 current_line = 1
